@@ -70,8 +70,9 @@ export default function AgentHome() {
     recognition.maxAlternatives = 1;
 
     recognition.onresult = async (event) => {
-      const spokenText = event.results[0][0].transcript.toLowerCase();
-      if (spokenText.includes(agent.name)) {
+        const spokenText = event.results[0][0].transcript.toLowerCase();
+
+      if (!spokenText.includes(agent.name.toLowerCase())) {
         setDisplayText(`कृपया एजेंट का नाम "${agent.name}" कहें।`);
         return;
       }

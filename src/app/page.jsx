@@ -126,9 +126,9 @@ export default function AgentHome() {
         <>
           <div className="rounded-full overflow-hidden border-4 border-white shadow-lg">
             <Image
-              src={agent.agentImageUrl}
+              src='/airobotimage.webp'
               alt="Agent"
-              width={120}
+              width={120} 
               height={120}
               className="object-cover w-full h-full"
             />

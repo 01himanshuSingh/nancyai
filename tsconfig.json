@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(dashboard)/agent/page.tsx", "src/app/api/agent/createagent/route.js", "src/app/page.tsx", "src/app/(gemini)/gemini/page.jsx", "src/app/(gemini)/gemidummy/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(dashboard)/agent/page.tsx", "src/app/api/agent/createagent/route.js", "src/app/page.jsx", "src/app/(gemini)/gemini/page.jsx", "src/app/(gemini)/gemidummy/page.jsx"],
   "exclude": ["node_modules"]
 }
