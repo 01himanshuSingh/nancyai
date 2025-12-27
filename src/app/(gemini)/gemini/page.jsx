@@ -112,7 +112,7 @@ export default function AgentHome() {
         setDisplayText('🎤 Listening...');
         recognition.start();
       } else {
-        setDisplayText('⚠️ Already listening...');
+        setDisplayText('⚠️ Already listening.....');
       }
     };
   }, [agent]);
